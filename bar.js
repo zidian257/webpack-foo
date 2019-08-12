@@ -1,3 +1,5 @@
-export default {
-  gg: 3
-};
+export function bar() {
+  return "bar";
+}
+
+console.log("dd", bar());

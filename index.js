@@ -1,11 +1,3 @@
-import React from "react";
-import Vue from "vue";
-import change from "./bar";
+import { foo } from "./test";
 
-// console.log("Vue", Vue);
-// console.log("Vue", Vue);
-// console.log("Vue", Vue);
-// console.log("Vue", Vue);
-console.log("Vue", Vue);
-console.log("Vue", React);
-console.log("chandddge", change);
+console.log("foo(", foo());
