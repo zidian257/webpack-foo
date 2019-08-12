@@ -9,7 +9,9 @@
   "repository": "git@bitbucket.org:zidian257/webpack-foo.git",
   "author": "zidian257 <zidian257@gmail.com>",
   "license": "MIT",
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css"
+  ],
   "devDependencies": {
     "add": "^2.0.6",
     "clean-webpack-plugin": "^3.0.0",
