@@ -1,12 +1,11 @@
 {
   "name": "webpack-foo",
   "version": "1.0.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.build.js"
   },
-  "repository": "git@bitbucket.org:zidian257/webpack-foo.git",
   "author": "zidian257 <zidian257@gmail.com>",
   "sideEffects": [
     "*.css",
