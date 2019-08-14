@@ -1,4 +1,4 @@
 import { foo } from "./foo";
-import { bar } from "./bar";
+import { bar, dd } from "./bar";
 
-export { foo };
+export { foo, dd, bar };
