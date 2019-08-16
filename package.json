@@ -8,9 +8,7 @@
   },
   "author": "zidian257 <zidian257@gmail.com>",
   "sideEffects": [
-    "*.css",
-    "./test.js",
-    "./bar.js"
+    "*.css"
   ],
   "devDependencies": {
     "clean-webpack-plugin": "3.0.0",
